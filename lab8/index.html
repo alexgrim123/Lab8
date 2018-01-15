@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src= "https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.js" ></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <title>График онлайн</title>
+</head>
+<body>
+    <div class="center" style="height: 50px">
+        <h5>Построение графиков онлайн</h5>
+    </div>
+    <div class="headerwrap">
+        <br>
+        <div class="body1">
+            <br><h3>От:</h3><br>
+            <h3>До:</h3><br>
+            <h3>Функция:</h3>
+        </div>
+        <div class="body2">
+            <br><h3><input type="text" class="from" size="3" value="-5"></h3>
+            <br><h3><input type="text" class="to" size="10" value="5"></h3><br>
+            <h3><input type="text" class="fun" size="10" value="Math.sin(x)"></h3>
+            <br><br><button type="button" class="btn">Построить</button>
+        </div>
+        <div class="center">
+            <div class="output"></div>
+        </div>
+    </div>
+</body>
+</html>
